@@ -329,3 +329,40 @@ main h3 {
     padding: 16px;
   }
 }
+
+/* FITUR BARU: Login Form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+  margin: 24px auto;
+}
+
+.input-field {
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.input-field:focus {
+  border-color: #ff6aab;
+}
+
+.error-text {
+  color: #e05090;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+/* Override default button style agar <button> sama persis dengan <Link> .buttons */
+.buttons {
+  border: none;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-family: inherit;
+}
